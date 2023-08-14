@@ -9,7 +9,7 @@ const webhookUrl = "https://your-dummy-fetch-url";
 const web3 = new Web3(new Web3.providers.WebsocketProvider(providerUrl));
 const contract = new web3.eth.Contract(abi, contractAddress);
 
-//@ts-ignore
+
 contract.events.PaymentReceived({
     fromBlock: 0
 })

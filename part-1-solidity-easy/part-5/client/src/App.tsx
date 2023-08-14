@@ -9,7 +9,7 @@ function App() {
     const [web3, setWeb3] = useState(null);
     const [courseContract, setCourseContract] = useState(null);
     const [courseFee, setCourseFee] = useState('');
-    const contractAddress = '0xac77ae1a44603f5455dadfa07cbcd068fcee9452';
+    const contractAddress = '0x3ce46520008dc6f12523eb6b03d905a58bcfcca9';
 
     useEffect(() => {
         if (window.ethereum) {
